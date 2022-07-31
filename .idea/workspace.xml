@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1165a111-613c-4f28-9df4-a664469f08d7" name="Changes" comment="" />
+    <list default="true" id="1165a111-613c-4f28-9df4-a664469f08d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/UserAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/UserLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobjects/UserRegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserLoginLogoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserNavigationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserRegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CgCH1MOrhHScvtQhXkAH9rApj4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +43,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.UserLoginLogoutTest">
+    <configuration name="All in Diplom-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginLogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserLoginLogoutTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginLogoutTest.shouldBePossibleToLoginFromRegistrationForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserLoginLogoutTest" />
+      <option name="METHOD_NAME" value="shouldBePossibleToLoginFromRegistrationForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.shouldBeImpossibleToRegisterWithWrongPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
+      <option name="METHOD_NAME" value="shouldBeImpossibleToRegisterWithWrongPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.shouldBePossibleToRegisterWithValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
+      <option name="METHOD_NAME" value="shouldBePossibleToRegisterWithValidData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserLoginLogoutTest" />
+        <item itemvalue="JUnit.All in Diplom-3" />
+        <item itemvalue="JUnit.UserLoginLogoutTest.shouldBePossibleToLoginFromRegistrationForm" />
+        <item itemvalue="JUnit.UserRegistrationTest.shouldBeImpossibleToRegisterWithWrongPassword" />
+        <item itemvalue="JUnit.UserRegistrationTest.shouldBePossibleToRegisterWithValidData" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +117,16 @@
       <updated>1659214751727</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
