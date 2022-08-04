@@ -9,17 +9,18 @@ import java.time.Duration;
 
 public class Header {
     private static final Duration delay = Duration.ofSeconds(10);
+
     //локатор кнопки Конструктор
     @FindBy(how = How.LINK_TEXT, using = "Конструктор")
-    public SelenideElement constructorButton;
+    private SelenideElement constructorButton;
 
     //локатор логотипа
     @FindBy(how = How.XPATH,using = ".//*[(@class ='AppHeader_header__logo__2D0X2')]")
-    public SelenideElement logoButton;
+    private SelenideElement logoButton;
 
     //локатор кнопки Личный кабинет
     @FindBy(how = How.LINK_TEXT, using = "Личный Кабинет")
-    public SelenideElement userAccountButton;
+    private SelenideElement userAccountButton;
 
     //метод нажатия кнопки Личный кабинет
     public void userAccountButtonClick() {

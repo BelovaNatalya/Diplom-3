@@ -13,15 +13,15 @@ public class ForgotPasswordPage {
 
     //локатор поля email
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'text input__textfield text_type_main-default')]")
-    public SelenideElement emailForgotPasswordField;
+    private SelenideElement emailForgotPasswordField;
 
     //локатор кнопки Восстановить
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_medium__3zxIa')]")
-    public SelenideElement restoreForgotPasswordField;
+    private SelenideElement restoreForgotPasswordField;
 
     //локатор кнопки Войти
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'Auth_link__1fOlj')]")
-    public SelenideElement logInForgotPasswordPage;
+    private SelenideElement logInForgotPasswordPage;
 
     //метод для нажатия кнопки Войти
     public void logInButtonClick() {

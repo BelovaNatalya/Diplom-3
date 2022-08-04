@@ -10,25 +10,26 @@ import java.time.Duration;
 public class UserLoginPage {
     private static final Duration delay = Duration.ofSeconds(10);
     public static final String LOGIN_PAGE_URL = "https://stellarburgers.nomoreparties.site/login";
+
     //локатор поля email
     @FindBy(how = How.XPATH, using = "//*[text()='Email']/following-sibling::input")
-    public SelenideElement emailLoginField;
+    private SelenideElement emailLoginField;
 
     //локатор поля Пароль
     @FindBy(how = How.XPATH, using = "//*[text()='Пароль']/following-sibling::input")
-    public SelenideElement passwordLoginField;
+    private SelenideElement passwordLoginField;
 
     //локатор кнопки Войти
     @FindBy(how = How.XPATH, using = "//button[text()='Войти']")
-    public SelenideElement logInButtonLogInPage;
+    private SelenideElement logInButtonLogInPage;
 
     //локатор кнопки Зарегистрироваться
     @FindBy(how = How.XPATH, using = "//*[text()='Зарегистрироваться']")
-    public SelenideElement registerButtonLogInPage;
+    private SelenideElement registerButtonLogInPage;
 
     //локатор кнопки Восстановить пароль
     @FindBy(how = How.XPATH, using = "//*[text()='Восстановить пароль']")
-    public SelenideElement restorePasswordButtonLogInPage;
+    private SelenideElement restorePasswordButtonLogInPage;
 
     //метод нажимающий на кнопку регистрации
     public void registrationButtonClick() {

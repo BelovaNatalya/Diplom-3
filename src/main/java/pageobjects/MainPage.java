@@ -13,35 +13,35 @@ public class MainPage {
 
     //локатор кнопки Войти в аккаунт
     @FindBy(how = How.XPATH,using = ".//button[@class=\"button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg\"]")
-    public SelenideElement logInButton;
+    private SelenideElement logInButton;
 
     //локатор раздела Булки
     @FindBy(how = How.XPATH,using = ".//span[contains(text(),'Булки')]")
-    public SelenideElement bunsSection;
+    private SelenideElement bunsSection;
 
     //локатор раздела Соусы
     @FindBy(how = How.XPATH,using = ".//span[contains(text(),'Соусы')]")
-    public SelenideElement saucesSection;
+    private SelenideElement saucesSection;
 
     //локатор раздела Начинки
     @FindBy(how = How.XPATH,using = ".//span[contains(text(),'Начинки')]")
-    public SelenideElement fillingsSection;
+    private SelenideElement fillingsSection;
 
     //локатор Флюоресцентной булки
     @FindBy(how = How.XPATH,using = "//*[contains(text(), 'Флюоресцентная булка')]")
-    public SelenideElement fluorescentBun;
+    private SelenideElement fluorescentBun;
 
     //локатор соуса Spicy-x
     @FindBy(how = How.XPATH,using = "//*[contains(text(), 'Соус Spicy-X')]")
-    public SelenideElement spicySauce;
+    private SelenideElement spicySauce;
 
     //локатор мяса бессмертных моллюсков
     @FindBy(how = How.XPATH,using = "//*[contains(text(), 'Мясо бессмертных моллюсков Protostomia')]")
-    public SelenideElement molluskMeat;
+    private SelenideElement molluskMeat;
 
     //локатор кнопки Оформить заказ
     @FindBy(how = How.XPATH,using = ".//button[contains(text(),'Оформить заказ')]")
-    public SelenideElement makeOrderButton;
+    private SelenideElement makeOrderButton;
 
     //метод, нажимающий кнопку Войти
     public void logInButtonClick() {

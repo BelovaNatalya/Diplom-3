@@ -13,27 +13,27 @@ public class UserRegistrationPage {
 
     //локатор поля Имя
     @FindBy(how = How.XPATH, using = "//*[text()='Имя']/following-sibling::input")
-    public SelenideElement nameRegistrationField;
+    private SelenideElement nameRegistrationField;
 
     //локатор поля email
     @FindBy(how = How.XPATH, using = "//*[text()='Email']/following-sibling::input")
-    public SelenideElement emailRegistrationField;
+    private SelenideElement emailRegistrationField;
 
     //локатор поля Пароль
     @FindBy(how = How.XPATH, using = "//*[text()='Пароль']/following-sibling::input")
-    public SelenideElement passwordRegistrationField;
+    private SelenideElement passwordRegistrationField;
 
     //локатор строки Некорректный пароль
     @FindBy(how = How.XPATH, using = "    //*[contains(@class, 'input__error text_type_main-default')]")
-    public SelenideElement passwordErrorText;
+    private SelenideElement passwordErrorText;
 
     //локатор кнопки Зарегистрироваться
     @FindBy(how = How.XPATH, using = "//button[text()='Зарегистрироваться']")
-    public SelenideElement registrationButton;
+    private SelenideElement registrationButton;
 
     //локатор кнопки Войти
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'Auth_link__1fOlj')]")
-    public SelenideElement logInRegFormButton;
+    private SelenideElement logInRegFormButton;
 
     //ввод данных пользователя
     public void fillRegistrationForm(String name, String email, String password) {
@@ -47,7 +47,7 @@ public class UserRegistrationPage {
         registrationButton.shouldBe(Condition.visible, delay).click();
     }
 
-    //метод проверки отображенния ошибки о коротком пароле
+    //метод проверки отображения ошибки о коротком пароле
     public boolean isVisibleShortPasswordErrorMessage() {
         return passwordErrorText.shouldBe(Condition.visible, delay).isDisplayed();
     }
